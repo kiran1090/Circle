@@ -9,7 +9,7 @@ public class Circle {
         color = "red";
     }
 
-    public Circle(double radius) {
+    public Circle(double r) {
         radius = r;
         color = "red";
     }
@@ -19,7 +19,8 @@ public class Circle {
     }
 
     public double getArea() {
-        return Area = r * r * Math.PI;
+        double Area;
+        return Area = radius * radius * Math.PI;
 
     }
 }
